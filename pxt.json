@@ -1,0 +1,18 @@
+{
+    "name": "Gesture",
+    "version": "0.0.1",
+    "description": "gesture recognition of apds9960",
+    "dependencies": {
+        "core": "*",
+        "radio": "*"
+    },
+    "files": [
+        "README.md",
+        "main.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": false,
+    "license": "MIT"
+}
