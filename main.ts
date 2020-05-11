@@ -63,257 +63,72 @@ namespace APDS9960 {
         DIR_DOWN = 2,
         //% block = LEFT
         DIR_LEFT = 3,
-
-
         //% block = RIGHT
         DIR_RIGHT = 4,
-
-
         //% block = NEAR
         DIR_NEAR = 5,
-
-
         //% block = FAR
         DIR_FAR = 6,
-
-
         //% block = ALL
         DIR_ALL = 7
-
-
-
     }
-
-
-
     /** ADC gain settings */
-
-
-
     enum apds9960AGain_t {
-
-
-
         APDS9960_AGAIN_1X = 0x00, /**< No gain */
-
-
-
         APDS9960_AGAIN_4X = 0x01,  /**< 2x gain */
-
-
-
         APDS9960_AGAIN_16X = 0x02, /**< 16x gain */
-
-
-
         APDS9960_AGAIN_64X = 0x03  /**< 64x gain */
-
-
-
     }
-
-
-
     /** Proxmity gain settings */
-
-
-
     enum apds9960PGain_t {
-
-
-
         APDS9960_PGAIN_1X = 0x00, /**< 1x gain */
-
-
-
         APDS9960_PGAIN_2X = 0x04, /**< 2x gain */
-
-
-
         APDS9960_PGAIN_4X = 0x08, /**< 4x gain */
-
-
-
         APDS9960_PGAIN_8X = 0x0C  /**< 8x gain */
-
-
-
     }
-
-
-
     /** Pulse length settings */
-
-
-
     enum apds9960PPulseLen_t {
-
-
-
         APDS9960_PPULSELEN_4US = 0x00,  /**< 4uS */
-
-
-
         APDS9960_PPULSELEN_8US = 0x40,  /**< 8uS */
-
-
-
         APDS9960_PPULSELEN_16US = 0x80, /**< 16uS */
-
-
-
         APDS9960_PPULSELEN_32US = 0xC0  /**< 32uS */
-
-
-
     }
-
-
-
     /** LED drive settings */
-
-
-
     enum apds9960LedDrive_t {
-
-
-
         APDS9960_LEDDRIVE_100MA = 0x00, /**< 100mA */
-
-
-
         APDS9960_LEDDRIVE_50MA = 0x40,  /**< 50mA */
-
-
-
         APDS9960_LEDDRIVE_25MA = 0x80,  /**< 25mA */
-
-
-
         APDS9960_LEDDRIVE_12MA = 0xC0   /**< 12.5mA */
-
-
-
     }
-
-
-
     /** LED boost settings */
-
-
-
     enum apds9960LedBoost_t {
-
-
-
         APDS9960_LEDBOOST_100PCNT = 0x00, /**< 100% */
-
-
-
         APDS9960_LEDBOOST_150PCNT = 0x10, /**< 150% */
-
-
-
         APDS9960_LEDBOOST_200PCNT = 0x20, /**< 200% */
-
-
-
         APDS9960_LEDBOOST_300PCNT = 0x30  /**< 300% */
-
-
-
     }
-
-
-
     /** Dimensions */
-
-
-
     enum dimensions {
-
-
-
         APDS9960_DIMENSIONS_ALL = 0x00,        // All dimensions
-
-
-
         APDS9960_DIMENSIONS_UP_DOWN = 0x01,    // Up/Down dimensions
-
-
-
         APGS9960_DIMENSIONS_LEFT_RIGHT = 0x02, // Left/Right dimensions
-
-
-
     }
-
-
-
     /** FIFO Interrupts */
-
-
-
     enum FIFOInterrupts {
-
-
-
         APDS9960_GFIFO_1 = 0x00,  // Generate interrupt after 1 dataset in FIFO
-
-
-
         APDS9960_GFIFO_4 = 0x01,  // Generate interrupt after 2 datasets in FIFO
-
-
-
         APDS9960_GFIFO_8 = 0x02,  // Generate interrupt after 3 datasets in FIFO
-
-
-
         APDS9960_GFIFO_16 = 0x03, // Generate interrupt after 4 datasets in FIFO
-
-
-
     }
-
-
-
     /** Gesture Gain */
-
-
-
     enum GestureGain {
-
-
-
         APDS9960_GGAIN_1 = 0x00, // Gain 1x
-
-
-
         APDS9960_GGAIN_2 = 0x01, // Gain 2x
-
-
-
         APDS9960_GGAIN_4 = 0x02, // Gain 4x
-
-
-
         APDS9960_GGAIN_8 = 0x03, // Gain 8x
-
-
-
     }
-
-
-
     /** Pulse Lenghts */
-
-
-
     enum PulseLenghts {
-
-
-
         APDS9960_GPULSE_4US = 0x00,  // Pulse 4us
 
 
